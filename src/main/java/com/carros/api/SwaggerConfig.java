@@ -26,9 +26,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .contact(new Contact("Ricardo Lecheta", "", ""))
-                .title("Carros")
-                .description("Documentação API dos Carros")
+                .contact(new Contact("Pedro Campos ", "", ""))
+                .title("Bobinas")
+                .description("Documentação API das Bobinas ")
                 .license("Apache Licence Version 2.0")
                 .licenseUrl("https://apache.org")
                 .version("1.0")
