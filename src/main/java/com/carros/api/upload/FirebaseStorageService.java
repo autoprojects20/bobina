@@ -30,8 +30,8 @@ public class FirebaseStorageService {
             if(in != null) {
                 FirebaseOptions options = new FirebaseOptions.Builder()
                         .setCredentials(GoogleCredentials.fromStream(in))
-                        .setStorageBucket("seu-projeto.appspot.com")
-                        .setDatabaseUrl("https://seu-projeto.firebaseio.com")
+                        .setStorageBucket("protus-edc30.appspot.com")
+                        .setDatabaseUrl("https://protus-edc30-default-rtdb.firebaseio.com")
                         .build();
 
                 FirebaseApp.initializeApp(options);
