@@ -1,2 +1,2 @@
-# carros_springboot
-API dos Carros no SpringBoot
+# Bobinas_springboot
+API das Bobinas no SpringBoot
