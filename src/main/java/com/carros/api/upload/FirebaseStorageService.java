@@ -21,7 +21,7 @@ public class FirebaseStorageService {
 
         if (FirebaseApp.getApps().isEmpty()) {
             InputStream in =
-                    FirebaseStorageService.class.getResourceAsStream("/serviceAccountKey.json");
+                    FirebaseStorageService.class.getResourceAsStream("/protus-edc30-firebase-adminsdk-i8rbg-029cdbe8fe.json");
 
             System.out.println(in);
 
@@ -63,25 +63,3 @@ public class FirebaseStorageService {
     }
 }
 
-/**
- service firebase.storage {
- match /b/{bucket}/o {
- match /{allPaths=**} {
- allow read, write: if request.auth != null;
- }
- }
- }
-*/
-
-/**
- service firebase.storage {
- match /b/{bucket}/o {
- match /{allPaths=**} {
- allow write: if request.auth != null;
- }
- match /{allPaths=**} {
- allow read;
- }
- }
- }
-**/
