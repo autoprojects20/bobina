@@ -1,2 +1,2 @@
-# Bobinas_springboot
+# bobina_springboot
 API das Bobinas no SpringBoot
