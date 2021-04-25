@@ -21,7 +21,7 @@ public class FirebaseStorageService {
 
         if (FirebaseApp.getApps().isEmpty()) {
             InputStream in =
-                    FirebaseStorageService.class.getResourceAsStream("/protus-edc30-firebase-adminsdk-i8rbg-029cdbe8fe.json");
+                    FirebaseStorageService.class.getResourceAsStream("/serviceAccountKey.json");
 
             System.out.println(in);
 
